@@ -51,3 +51,77 @@ nav .btn{
     gap: 10px;
     cursor: pointer;
 }
+
+/* Banner */
+
+.container{
+    position: relative;
+    width: 100%;
+   
+}
+
+.container img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+.text button{
+    position: absolute;
+    align-items: center;
+    top: 26%;
+    left: 45%;
+    display: flex;
+    gap: 6px;
+    padding: 8px 12px 8px 12px;
+    border-radius: 100px;
+    width: 200px;
+    height: 35px;
+}
+.one{
+    position: absolute;
+    text-align: center;
+    width: 700px;
+    top: 30%;
+    color: white;
+    left: 30%;
+    right: 30%;
+    font-size: 65px;
+    line-height: 86px;
+}
+.two{
+    position: absolute;
+    line-height: 24px;
+    top: 60%;
+    color: white;
+    left: 34%;
+    right: 28%;
+    display: block;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+#button .left{
+    position: absolute;
+    border: none;
+    display: flex;
+    border-radius: 4px;
+    background-color: #30b868;
+    color: white;
+    top: 70%;
+    left: 37%;
+    font-size: 18px;
+    padding: 12px 16px 12px 16px;
+    gap: 10px;
+}
+#button .right{
+    position: absolute;
+    color: white;
+    border: 1px solid;
+    background-color: transparent;
+    border-radius: 4px;
+    top: 70%;
+    left: 55%;
+    font-size: 18px;
+    padding: 12px 16px 12px 16px;
+    gap: 10px;
+}
